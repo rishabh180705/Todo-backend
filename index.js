@@ -9,7 +9,10 @@ const allowedOrigins = [
     'https://rishabh180705.github.io/profile',
     'https://rishabh180705.github.io/signin',
     'https://rishabh180705.github.io/todo',
-    'https://rishabh180705.github.io/signup'
+    'https://rishabh180705.github.io/signup',
+     'https://rishabh180705.github.io/Todo_app',
+     'https://rishabh180705.github.io/Todo_app/*',
+    
 ];
 
 app.use(cors({

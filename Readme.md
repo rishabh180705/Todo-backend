@@ -33,7 +33,7 @@ To run this project, you need to have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/todo-backend.git
+   git clone https://github.com/your-username/Todo-backend.git
    cd todo-backend
 Install dependencies:
 
@@ -70,7 +70,7 @@ bash
 Copy code
 POST /api/tasks
 Content-Type: application/json
-Authorization: Bearer <your-jwt-token>
+Authorization: Bearer user Id
 
 {
   "title": "New Task",

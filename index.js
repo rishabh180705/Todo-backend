@@ -4,7 +4,7 @@ import auth from './routes/auth.js';
 import list from './routes/list.js';
 import cors from 'cors'
 const app = express();
-app.use(cors({ origin:https://rishabh180705.github.io/Todo_app/ }));
+app.use(cors({ origin:'https://rishabh180705.github.io/Todo_app/' }));
 
 app.use(express.json());
 //Routes

@@ -4,7 +4,7 @@ import auth from './routes/auth.js';
 import list from './routes/list.js';
 import cors from 'cors'
 const app = express();
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: * }));
 
 app.use(express.json());
 //Routes
